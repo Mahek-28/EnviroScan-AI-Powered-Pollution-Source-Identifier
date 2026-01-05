@@ -1,4 +1,5 @@
-markdown(EnviroScan is an AI-powered system that identifies the dominant source of air pollution (Agricultural, Burning, Industrial, Natural, Vehicular) using air-quality, weather, and geospatial features, and serves the results through an interactive Streamlit dashboard.
+```
+EnviroScan is an AI-powered system that identifies the dominant source of air pollution (Agricultural, Burning, Industrial, Natural, Vehicular) using air-quality, weather, and geospatial features, and serves the results through an interactive Streamlit dashboard.
 ​
 
 1. Project Objective
@@ -105,4 +106,4 @@ Reporting: Users can export data for the selected city/location to CSV, Excel, o
 EnviroScan demonstrates that combining geospatial analytics, weather information, and machine learning can accurately attribute pollution to specific source categories, with around 98–99% test accuracy across five classes.
 ​
 The integrated dashboard turns these predictions into an operational tool that surfaces live alerts, interactive maps, and rich reports, making it suitable for city administrators, environmental agencies, and academic analysis.
-)
+```
