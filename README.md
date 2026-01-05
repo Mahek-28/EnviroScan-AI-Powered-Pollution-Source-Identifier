@@ -143,7 +143,7 @@ In app.py, set your OpenWeather key:
 ```bash
 streamlit run app.py
 ```
-Then open the URL shown in the terminal (usually http://localhost:8501) to use the EnviroScan app.
+- Then open the URL shown in the terminal (usually http://localhost:8501) to use the EnviroScan app.
 ---
 ### From the UI you can:
 
@@ -169,4 +169,21 @@ Then open the URL shown in the terminal (usually http://localhost:8501) to use t
 
 - Containerize the application with Docker for smoother deployment.
 
-- Extend the model to more cities, pollutants, and finer-grained source categories. 
+- Extend the model to more cities, pollutants, and finer-grained source categories.
+
+---
+
+## 👥 Credits
+
+This project was developed as part of the **Infosys Springboard** project.  
+- **Project Title:** EnviroScan: AI-Powered Pollution Source Identifier  
+- **Author:** Mahek Rana  
+- **Platform:** Infosys Springboard – Data Science / AI Project Track  
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License**.  
+See the `LICENSE` file in this repository for full license text.
+
