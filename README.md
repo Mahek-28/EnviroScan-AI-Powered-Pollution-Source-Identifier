@@ -178,7 +178,7 @@ streamlit run app.py
 This project was developed as part of the **Infosys Springboard** project.  
 - **Project Title:** EnviroScan: AI-Powered Pollution Source Identifier  
 - **Author:** Mahek Rana  
-- **Platform:** Infosys Springboard – Data Science / AI Project Track  
+- **Platform:** Infosys Springboard Intership Programm – Data Science / AI Project Track  
 
 ---
 
