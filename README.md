@@ -21,10 +21,16 @@ A trained machine learning model uses these inputs to predict the **dominant pol
 ```text
 EnviroScan/
 ├── app.py                          # Main Streamlit dashboard for predictions & visualization
+├── EnviroScan/Air-Quality-Dataset-2021-2023_with_preds.csv  # Cleaned data used for model
+├── enviro_scan_pollution_map.html  # Pre-rendered geospatial pollution map for embedding
+├── .gitignore                      # Ignore venv, cache, large/raw data, etc.
+├── requirements.txt                # Python dependencies
 ├── data/
-│   ├── raw/                        # Raw AQ, weather, and OSM CSVs
-│   └── processed/                  # Cleaned & feature-engineered datasets
-├── models/
+│   ├── Air Quality Dataset 2021-2023.xlsx  # Raw AQ, weather, and OSM CSVs
+│   └── Air Quality Dataset 2021-2023.csv   # Cleaned & feature-engineered datasets
+|   └── Air_Quality_with_OSM_Features_5KM.xlsx
+|   └── Data Extraction code for Physical features with in 5 km radius .ipynb
+├── model/
 │   ├── xgb_pollution_source.joblib # Trained XGBoost classifier
 │   └── label_encoder.joblib        # Encoder for dominant source labels
 ├── notebooks/
@@ -33,7 +39,6 @@ EnviroScan/
 ├── reports/
 │   ├── AI-EnviroScan-1.pdf         # Project report
 │   └── EnviroScan-*.pptx           # Presentation slides
-├── enviro_scan_pollution_map.html  # Pre-rendered geospatial pollution map for embedding
 ├── requirements.txt                # Python dependencies
-├── .gitignore                      # Ignore venv, cache, large/raw data, etc.
 └── README.md                       # Project overview (this file)
+```
