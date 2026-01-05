@@ -1,0 +1,34 @@
+# Core
+pandas
+numpy
+
+# Machine learning / model
+scikit-learn
+xgboost
+joblib
+
+# Visualization
+matplotlib
+seaborn
+plotly
+
+# Geospatial & OSM
+geopandas
+osmnx
+folium
+
+# Web app
+streamlit
+
+# HTTP / APIs
+requests
+
+# PDF export
+fpdf2
+
+# Excel export
+openpyxl
+
+# Jupyter (for notebooks)
+jupyter
+ipykernel
